@@ -1,0 +1,92 @@
+/* POsicionamento das Divs principais */
+
+#fundo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#top{
+	position: fixed;
+	margin-left: 355px;
+	border-style: solid;
+	width: 600px;
+	height: 100px;
+}
+
+#mid{
+	position: fixed;
+	margin-left: 355px;
+	margin-top: 120px;
+	border-style: solid;
+	width: 600px;
+	height: 440px;
+}
+
+#bot{
+	position: fixed;
+	margin-left: 355px;
+	margin-top: 580px;
+	border-style: solid;
+	width: 600px;
+	height: 20px;
+	text-align: center;
+}
+
+/*-----------FIM---------------*/
+
+/* Posicionamento Imagens e titulos */
+
+#logo{
+	width: 80px;
+	height: 80px;
+}
+
+#imglogo{
+	width: 50px;
+	height: 50px;
+}
+
+#botao{
+	width: 40px;
+	height: 40px;
+}
+
+a:hover {
+	background:#D5D1D1; 
+}
+
+#tabela{
+	margin-top: 50px;
+}
+
+#titulo{
+	margin-top: 20px;
+}
+
+#divlista{
+	position: auto;
+	overflow-y: scroll;
+	width: 220px;
+	height: 200px;
+	margin-top: -5px;
+	margin-left: 190px;
+}
+/*---------FIM---------------*/
+
+/* Menu formularios */
+
+a, a:active, a:visited{
+	color: black;
+}
+
+#menu ul {
+	list-style:none;
+	text-align: center;
+}
+
+#menu ul li { 
+	display: inline; 
+}
+/*---------FIM-----------*/
+
